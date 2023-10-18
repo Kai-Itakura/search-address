@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+main h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+main form input {
+  font-size: 18px;
+  padding: 5px 7px;
+  width: 60%;
+}
+
+main form button {
+  margin-left: 20px;
+}
+
+main form li + li {
+  margin-top: 10px;
+}
